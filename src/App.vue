@@ -28,7 +28,12 @@
     data () {
       return {
         appTitle: 'Awesome App',
-        sidebar: false
+        sidebar: false,
+        menuItems: [
+          { title: 'Home', path: '/home', icon: 'home' },
+          { title: 'Sign Up', path: '/signup', icon: 'face' },
+          { title: 'Sign In', path: '/signin', icon: 'look_open' }
+        ]
       }
     }
   }
