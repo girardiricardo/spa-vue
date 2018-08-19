@@ -8,7 +8,11 @@
         <v-toolbar-side-icon @click="sidebar = !sidebar">
         </v-toolbar-side-icon>
       </span>
-      <v-toolbar-title>{{ appTitle }}</v-toolbar-title>
+      <v-toolbar-title>
+        <router-link to="/" tag="span" style="cursor: pointer">
+          {{ appTitle }}
+        </router-link>
+      </v-toolbar-title>
       <v-spacer></v-spacer>
     </v-toolbar>
     
