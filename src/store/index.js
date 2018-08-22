@@ -5,9 +5,22 @@ Vue.use(Vuex)
 
 export const store = new Vuex.Store({
   state: {
-    appTitle: 'My awesome app'
+    appTitle: 'My awesome app',
+    user: null,
+    error: null,
+    loading: false
   },
-  mutations: {},
+  mutations: {
+    setUser (state, payload) {
+      state.user = payload
+    },
+    setError (state, payload) {
+      state.error = payload
+    },
+    setLoading (state, payload) {
+      state.loading = payload
+    }
+  },
   actions: {},
   getters: {}
 })
