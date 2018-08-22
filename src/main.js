@@ -9,10 +9,10 @@ import firebase from 'firebase'
 Vue.use(Vuetify)
 
 firebase.initializeApp({
-  apiKey: 'AIzaSyB52BNYe4un14blQWrMV6qe078zamYEVFs',
-  authDomain: 'vue-spa-5c885.firebaseapp.com',
-  databaseURL: 'https://vue-spa-5c885.firebaseio.com',
-  projectId: 'vue-spa-5c885'
+  apiKey: 'API_KEY',
+  authDomain: 'AUTH_DOMAIN',
+  databaseURL: 'DATABASE_URL',
+  projectId: 'PROJECT_ID'
 })
 
 Vue.config.productionTip = false
